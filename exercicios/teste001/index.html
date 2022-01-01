@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagem</title>
+</head>
+<body>
+    <h1>Testando imagem do Abraão</h1>
+    <p>Essas imagems estão croppadas, ou seja, quanto maior a tela, mais informações a imagem vai ter!</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/abraao300px.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/abraao700px.png" type="image/png">
+        <img src="imagens/abraao1000px.png" alt="Imagem flexivel">
+    </picture>
+</body>
+</html>
